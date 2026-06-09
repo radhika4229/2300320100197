@@ -1,7 +1,7 @@
 ## API Testing
 
 ### Success Response
-![Success](screenshots/success-response.png)
+![Success](screenshot/sc1.png)
 
 ### Error Handling
-![Error](screenshots/error-handling.png)
+![Error](screenshot/sc2.png)
