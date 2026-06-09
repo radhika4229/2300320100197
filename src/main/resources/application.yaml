@@ -1,6 +1,7 @@
 evaluation:
   base-url: http://4.224.186.213/evaluation-service
   depots-path: /depots
+  auth-token: Bearer <paste-your-token-here>
 
 server:
   port: 8080

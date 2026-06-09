@@ -14,9 +14,9 @@ public class DepotMapper {
         List<MaintenanceTask> tasks = (dto.getVehicles() == null)
                 ? Collections.emptyList()
                 : dto.getVehicles().stream()
-                .filter(t -> t != null && t.getTaskID() != null)
+                .filter(t -> t != null && t.getTaskId() != null)
                 .map(t -> new MaintenanceTask(
-                        t.getTaskID(),
+                        t.getTaskId(),
                         t.getDuration(),
                         t.getImpact()
                 ))
